@@ -1,0 +1,43 @@
+header {
+	background: darkslategray;
+	color: white;
+	padding: 20px 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	box-shadow: 0 2px 6px rgba(0,0,0, 0.2);	
+}
+footer {
+	background: darkslategray;
+	color: white;
+	padding: 20px 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	box-shadow: 0 2px 6px rgba(0,0,0, 0.2);	
+}
+ table, th, td {
+            border: 1px solid black;
+				<!-- añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black-->
+		}
+        th, td {
+            padding: 8px;
+				<!-- separa el texto de los bordes de la tabla-->
+		}
+		td {
+			text-align:center;
+				<!-- alineamos el texto al cento -->
+		}
+.ENT {background-color: red;}
+.SIS {background-color: blue;}
+.ING {background-color: yellow;}
+.BDD {background-color: #d1ecf1;}
+.DIG {background-color: purple;}
+.REC {background-color: pink;}
+.SOS {background-color: brown;}
+.PRO {background-color: gray;}
+.LEN {background-color: green;}
+.ITI {background-color: orange;}
+.DIAS {background-color: rgb(92, 224, 218);}

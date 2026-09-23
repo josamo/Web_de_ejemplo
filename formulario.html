@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="css/estilo.css"
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Mi primera WEB de Lenguaje de marca</h1>
+            <h2>Menu:</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="horario.html">Horario</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>
+                        <h3>Formulario de contacto</h3>
+                    </legend>
+                    <p>
+                        <label for="nombre">Nombre*:</label>
+                        <input type="text" id="nombre" name="nombre" required/>
+                    </p>
+                    <p>
+                        <label for="Apellido">Apellido*:</label>
+                        <input type="text" id="apellido" name="apellido" required/>
+                    </p>
+                    <p>
+                        <label for="contraseña">Contraseña*:</label>
+                        <input type="password" id="contraseña" name="contraseña" required/>
+                    </p>
+                    <p>
+                        <label for="correo">Correo Electronico:</label>
+                        <input type="email" id="correo" name="correo"/>
+                    </p>
+                    <p>
+                        <label for="telefono">Telefono:</label>
+                        <input type="telefono" id="telefono" name="telefono"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h3>Fechas y Horas</h3>
+                    </legend>
+                    <p>
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha" name="fecha"/>
+                    </p>
+                    <p>
+                        <label for="hora">Hora:</label>
+                        <input type="time" id="hora" name="hora"/>
+                    </p>
+                    <p>
+                        <label for="fechaHora">Fecha y Hora:</label>
+                        <input type="datetime-local" id="fechaHora" name="fechaHora"/>
+                    </p>
+                    <p>
+                        <label for="mes">Mes:</label>
+                        <input type="month" id="mes" name="mes"/>
+                    </p>
+                    <p>
+                        <label for="semana">Semana:</label>
+                        <input type="week" id="semana" name="semana"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h3>Valores Numericos</h3>
+                    </legend>
+                    <p>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="0" max="120" step="1"> 
+                    </p>
+                    <p>
+                        <label for="nivel">Nivel:</label>
+                        <input type="range" id="nivel" name="nivel" min="0" max="100">
+                    </p>
+                    <p>
+                        <label for="color">Color:</label>
+                        <input type="color" id="color" name="color">
+                    </p>
+
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h3>Opciones</h3>
+                    </legend>
+                    <p>
+                        Selecciona una opcion:
+                    </p>
+                    <p>
+                        <input type="radio" id="opcion1" name="opcion1">
+                        <label for="opcion1">Opcion 1:</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="opcion2" name="opcion2">
+                        <label for="opcion2">Opcion 2:</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="opcion3" name="opcion3">
+                        <label for="opcion3">Opcion 3:</label>
+                        <label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Listas</legend>
+                </fieldset>
+                <fieldset>
+                    <legend>Texto</legend>
+                </fieldset>
+                <fieldset>
+                    <legend>Otros Elementos</legend>
+                </fieldset>
+                <fieldset>
+                    <legend>Botones</legend>
+                </fieldset>
+
+               
+            </form>
+
+
+        </main>
+    </body>
+    <footer>
+      <p>CIFP Virgen de Gracia</p>
+	  <p>Contacto:</p>
+      <a href="mailto:josamo78@gmail.com">josamo78@gmail.com</a>
+    </footer>
+</html>
