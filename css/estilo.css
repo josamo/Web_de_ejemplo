@@ -27,18 +27,20 @@ footer {
 	align-items: center;
 	border: 1px solid black;
 }
-table, th, td {margin: auto;
-            border: 1px solid black;
-				<!-- añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black-->
-		}
-        th, td {
-            padding: 8px;
-				<!-- separa el texto de los bordes de la tabla-->
-		}
+table, th, td {
+	margin: auto;
+    border: 1px solid black;
+	<!-- añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black-->
+	}
+    th, td {
+        	padding: 17px;
+			<!-- separa el texto de los bordes de la tabla-->
+			}
 		td {
 			text-align:center;
-				<!-- alineamos el texto al cento -->
+			<!-- alineamos el texto al cento -->
 		}
+
 .ENT {background-color: rgb(246, 70, 70);}
 .SIS {background-color: rgb(87, 87, 203);}
 .ING {background-color: rgb(231, 231, 4);}
@@ -61,4 +63,13 @@ fieldset {
 	border-color: black;
 	border-radius: 5px;
 	background-color:rgb(240, 243, 210) ;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa toda la altura de la ventana */
+  margin: 0;
+}
+main {
+  flex: 1; /* Empuja el footer hacia abajo */
 }
