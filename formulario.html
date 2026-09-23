@@ -1,181 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Formulario</title>
-        <link rel="stylesheet" href="css/estilo.css"
+<head>
+  <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
 
-    </head>
-
-    <body>
-        <header>
-            <h1>Mi primera WEB de Lenguaje de marca</h1>
-            <h2>Menu:</h2>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="horario.html">Horario</a>
-                <a href="formulario.html">Formulario</a>
-            </nav>
-        </header>
-        <main>
-            <form>
-                <fieldset>
-                    <legend>
-                        <h3>Formulario de contacto</h3>
-                    </legend>
-                    <p>
-                        <label for="nombre">Nombre*:</label>
-                        <input type="text" id="nombre" name="nombre" required/>
-                    </p>
-                    <p>
-                        <label for="Apellido">Apellido*:</label>
-                        <input type="text" id="apellido" name="apellido" required/>
-                    </p>
-                    <p>
-                        <label for="contraseña">Contraseña*:</label>
-                        <input type="password" id="contraseña" name="contraseña" required/>
-                    </p>
-                    <p>
-                        <label for="correo">Correo Electronico:</label>
-                        <input type="email" id="correo" name="correo"/>
-                    </p>
-                    <p>
-                        <label for="telefono">Telefono:</label>
-                        <input type="telefono" id="telefono" name="telefono"/>
-                    </p>
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        <h3>Fechas y Horas</h3>
-                    </legend>
-                    <p>
-                        <label for="fecha">Fecha:</label>
-                        <input type="date" id="fecha" name="fecha"/>
-                    </p>
-                    <p>
-                        <label for="hora">Hora:</label>
-                        <input type="time" id="hora" name="hora"/>
-                    </p>
-                    <p>
-                        <label for="fechaHora">Fecha y Hora:</label>
-                        <input type="datetime-local" id="fechaHora" name="fechaHora"/>
-                    </p>
-                    <p>
-                        <label for="mes">Mes:</label>
-                        <input type="month" id="mes" name="mes"/>
-                    </p>
-                    <p>
-                        <label for="semana">Semana:</label>
-                        <input type="week" id="semana" name="semana"/>
-                    </p>
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        <h3>Valores Numericos</h3>
-                    </legend>
-                    <p>
-                        <label for="edad">Edad:</label>
-                        <input type="number" id="edad" name="edad" min="0" max="120" step="1"> 
-                    </p>
-                    <p>
-                        <label for="nivel">Nivel:</label>
-                        <input type="range" id="nivel" name="nivel" min="0" max="100">
-                    </p>
-                    <p>
-                        <label for="color">Color:</label>
-                        <input type="color" id="color" name="color">
-                    </p>
-
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        <h3>Opciones</h3>
-                    </legend>
-                    <p>
-                        Selecciona una opcion:
-                    </p>
-                    <p>
-                        <input type="radio" id="opcion1" name="opcion1">
-                        <label for="opcion1">Opcion 1:</label>
-                    </p>
-                    <p>
-                        <input type="radio" id="opcion2" name="opcion2">
-                        <label for="opcion2">Opcion 2:</label>
-                    </p>
-                    <p>
-                        <input type="radio" id="opcion3" name="opcion3">
-                        <label for="opcion3">Opcion 3:</label>
-                        <label>
-                    </p>
-                    <!-- CHECKBOX -->
+<body>
+  <header>
+    <h1>Mi primera WEB de Lenguajes de marcas</h1>
+    <h2>Menu:</h2>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="horario.html">Horario</a>
+      <a href="formulario.html">Formulario</a>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <fieldset>
+        <legend><h3>Formulario de contacto</h3></legend>
+        <!-- TEXT -->
+        <p>
+          <label for="nombre">Nombre*:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"/>
+        </p>
+        <!-- TEXT -->
+        <p>
+          <label for="Apellido">Apellido*:</label>
+          <input type="text" id="apellido" name="apellido" required/>
+        </p>
+        <!-- PASSWORD -->
+        <p>
+          <label for="contraseña">Contraseña*:</label>
+          <input type="password" id="contraseña" name="contraseña" required/>
+        </p>
+        <!-- CORREO ELECTRONICO -->
+        <p>
+          <label for="correo">Correo Electronico:</label>
+          <input type="email" id="correo" name="correo"/>
+        </p>
+        <!-- TELEFONO -->
+        <p>
+          <label for="telefono">Telefono:</label>
+          <input type="tel" id="telefono" name="telefono"/>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Fechas y Horas</h3></legend>
+          <!-- DATE -->
+          <p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"/>
+          </p>
+          <!-- TIME -->
+          <p>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora"/>
+          </p>
+          <!-- DATETIME-LOCAL -->
+          <p>
+            <label for="fechaHora">Fecha y Hora:</label>
+            <input type="datetime-local" id="fechaHora" name="fechaHora"/>
+          </p>
+          <!-- MONTH -->
+          <p>
+            <label for="mes">Mes:</label>
+            <input type="month" id="mes" name="mes"/>
+          </p>
+          <!-- WEEK-->
+          <p>
+            <label for="semana">Semana:</label>
+            <input type="week" id="semana" name="semana"/>
+          </p>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Valores Numericos</h3></legend>
+          <!-- NUMBER -->
+          <p>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="0" max="120" step="1"> 
+          </p>
+          <!-- RANGE -->
+          <p>
+            <label for="nivel">Nivel:</label>
+            <input type="range" id="nivel" name="nivel" min="0" max="100">
+          </p>
+          <!-- COLOR -->
+          <p>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+          </p>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Opciones</h3></legend>
+          <!-- RADIO -->
+          <p>Selecciona una opcion:</p>
+            <input type="radio" id="opcion1" name="opcion" value="1">
+            <label for="opcion1">Opcion 1</label>
+          <br/>
+            <input type="radio" id="opcion2" name="opcion" value="2">
+            <label for="opcion2">Opcion 2</label>
+          <br/>
+            <input type="radio" id="opcion3" name="opcion" value="3">
+            <label for="opcion3">Opcion 3</label>
+          <br/>
+          <!-- CHECKBOX -->
           <p>Selecciona tus aficiones:</p>
-
-          <input
-            type="checkbox"
-            id="deporte"
-            name="aficiones"
-            value="deporte"
-          />
-
-          <label for="deporte">Deporte</label>
-          <br />
-
-          <input type="checkbox" id="musica" name="aficiones" value="musica" />
-          <label for="musica">Música</label>
-          <br />
-
-          <input
-            type="checkbox"
-            id="informatica"
-            name="aficiones"
-            value="informatica"
-          />
-
-          <label for="informatica">Informática</label>
-                </fieldset>
-
-        <fieldset>
-          <legend>
-                <H3>Listas</H3>
-            </legend>
-
+              <input type="checkbox" id="deporte" name="aficiones" value="deporte"/>
+              <label for="deporte">Deporte</label>
+          <br/>
+              <input type="checkbox" id="musica" name="aficiones" value="musica"/>
+              <label for="musica">Música</label>
+          <br/>
+              <input type="checkbox" id="informatica" name="aficiones" value="informatica"/>
+              <label for="informatica">Informática</label>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Listas</h3></legend>
           <!-- SELECT -->
           <p>
             <label for="provincia">Provincia:</label>
-
             <select id="provincia" name="provincia">
               <option value="">Selecciona una provincia</option>
-
               <option value="cordoba">Córdoba</option>
               <option value="ciudad_real">Ciudad Real</option>
               <option value="toledo">Toledo</option>
               <option value="jaen">Jaén</option>
             </select>
           </p>
-
           <!-- SELECT CON GRUPOS -->
           <p>
             <label for="estudios">Estudios:</label>
-
             <select id="estudios" name="estudios">
               <optgroup label="Informática">
                 <option value="dam">DAM</option>
                 <option value="daw">DAW</option>
                 <option value="asir">ASIR</option>
               </optgroup>
-
               <optgroup label="Electrónica">
                 <option value="teleco">Sistemas de Telecomunicaciones</option>
-
                 <option value="electronica">Electrónica</option>
               </optgroup>
             </select>
           </p>
-
           <!-- SELECT MULTIPLE -->
           <p>
-            <label for="lenguajes"> Lenguajes favoritos: </label>
-
+            <label for="lenguajes">Lenguajes favoritos:</label>
             <select id="lenguajes" name="lenguajes" multiple size="4">
               <option value="html">HTML</option>
               <option value="css">CSS</option>
@@ -183,48 +154,27 @@
               <option value="java">Java</option>
             </select>
           </p>
-        </fieldset>
-
-        <fieldset>
-          <legend>
-            <h3>Texto</h3>
-        </legend>
-
+      </fieldset>
+      <fieldset>
+        <legend><h3>Texto</h3></legend>
           <!-- TEXTAREA -->
           <p>
-            <label for="comentarios"> Comentarios: </label>
-
-            <br />
-
-            <textarea
-              id="comentarios"
-              name="comentarios"
-              rows="5"
-              cols="40"
-              placeholder="Escribe aquí tus comentarios"
-            >
-            </textarea>
+            <label for="comentarios">Comentarios:</label>
+          <br/>
+            <textarea id="comentarios" name="comentarios" rows="5" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
           </p>
-        </fieldset>
-
-        <fieldset>
-          <legend>
-            <h3>Otros elementos</h3>
-        </legend>
-
+      </fieldset>
+      <fieldset>
+        <legend><h3>Otros elementos</h3></legend>
           <!-- FILE -->
           <p>
-            <label for="archivo"> Selecciona un archivo: </label>
-
-            <input type="file" id="archivo" name="archivo" />
+            <label for="archivo">Selecciona un archivo:</label>
+            <input type="file" id="archivo" name="archivo"/>
           </p>
-
           <!-- DATALIST -->
           <p>
-            <label for="navegador"> Navegador favorito: </label>
-
-            <input list="navegadores" id="navegador" name="navegador" />
-
+            <label for="navegador">Navegador favorito:</label>
+            <input list="navegadores" id="navegador" name="navegador"/>
             <datalist id="navegadores">
               <option value="Chrome"></option>
               <option value="Firefox"></option>
@@ -232,31 +182,21 @@
               <option value="Brave"></option>
             </datalist>
           </p>
-
           <!-- HIDDEN -->
-          <input type="hidden" name="id_usuario" value="123" />
-        </fieldset>
-
-        <fieldset>
-          <legend>
-            <h3>Botones</h3>
-        </legend>
-
+          <input type="hidden" name="id_usuario" value="123"/>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Botones</h3></legend>
           <!-- SUBMIT -->
-          <input type="submit" value="Enviar formulario" />
-
+          <input type="submit" value="Enviar formulario"/>
           <!-- RESET -->
-          <input type="reset" value="Limpiar formulario" />
+          <input type="reset" value="Limpiar formulario"/>
         </fieldset>
-               
-            </form>
-
-
-        </main>
-    </body>
-    <footer>
-      <p>CIFP Virgen de Gracia</p>
-	  <p>Contacto:</p>
-      <a href="mailto:josamo78@gmail.com">josamo78@gmail.com</a>
-    </footer>
+    </form>
+  </main>
+</body>
+<footer>
+    <p>CIFP Virgen de Gracia</p>
+	  <p>Contacto:<a href="mailto:josamo78@gmail.com">josamo78@gmail.com</a></p>
+</footer>
 </html>
