@@ -27,19 +27,20 @@ footer {
 	align-items: center;
 	border: 1px solid black;
 }
-table, th, td {
+
+
+table,  td {
 	margin: auto;
     border: 1px solid black;
-	<!-- añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black-->
+	/* añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black*/
 	}
-    th, td {
-        	padding: 17px;
-			<!-- separa el texto de los bordes de la tabla-->
-			}
-		td {
-			text-align:center;
-			<!-- alineamos el texto al cento -->
-		}
+
+td {
+	text-align: center;
+	/* alineamos el texto al cento -->*/
+	padding: 17px;
+    /*separa el texto de los bordes de la tabla*/
+	}
 
 .ENT {background-color: rgb(246, 70, 70);}
 .SIS {background-color: rgb(87, 87, 203);}

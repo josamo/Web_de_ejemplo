@@ -1,0 +1,19 @@
+#tabla1, #td1{
+    border: 3px solid blue;
+    padding: 17px;
+}
+h8{
+    align-items: center;
+}
+#tabla2, td, #th2{
+    border: 3px solid rgb(255, 213, 0);
+    padding: 17px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#gris{
+    background-color: rgb(189, 188, 188);
+}
+#verde{
+    background-color: rgb(87, 237, 87);
+}

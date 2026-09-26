@@ -1,0 +1,31 @@
+#encabezado {
+	margin: auto;
+    width: 250px;
+}
+h4{
+    color: orangered;
+}
+body { 
+    background-image: url('https://thumbs.dreamstime.com/z/flor-ejemplo-del-vector-44304295.jpg?ct=jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#etiqueta {
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+#formateado{
+    text-align: center;
+}
+footer {
+    border: 1px solid black;
+	background: rgb(50, 173, 235);
+	color: white;
+	padding: 20px 30px;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    height: 40px; /* Altura fija */
+}
