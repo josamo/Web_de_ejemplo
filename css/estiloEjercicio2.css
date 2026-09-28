@@ -1,4 +1,4 @@
-#encabezado {
+.encabezado {
 	margin: auto;
     width: 250px;
 }
@@ -10,13 +10,14 @@ body {
     background-size: cover; 
     background-repeat: no-repeat;
 }
-#etiqueta {
+.etiqueta {
     background-color: orange;
     width: 150px;
     height: 50px;
     text-align: center;
+    align-items: center;
 }
-#formateado{
+.formateado{
     text-align: center;
 }
 footer {
