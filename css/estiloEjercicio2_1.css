@@ -1,0 +1,11 @@
+.opcion {
+    list-style-type: circle;
+}
+.sub {
+    list-style-type: square;
+}
+.cabecera {
+    background-color: aqua;
+    border-radius: 5px;
+text-align: center;
+}
