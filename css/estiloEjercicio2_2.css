@@ -3,7 +3,10 @@ display: flex;
 background-color: rgb(141, 98, 29);
 list-style-type: none;
 }
-
+hr{
+    height: 2px;
+    background-color: black;
+}
 .vertical{
 list-style-type: none;
 width: 100px;

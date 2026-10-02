@@ -4,6 +4,7 @@
     margin: auto;
     padding: 20px;
     color: white;
+    opacity: 80%;
 }
 .segundo{
     background-color: rgb(225, 186, 31);
@@ -11,4 +12,24 @@
     margin: auto;
     padding: 20px;
     color: white;
+    opacity: 80%;
+}
+.fondo{
+    background-color: pink;
+}
+.borde{
+    border: 2px solid black;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: black;
+}
+.tipo{
+    font-style: oblique;
+    background-color: white;
+    color: black;
+}
+body { 
+    background-image: url('https://thumbs.dreamstime.com/z/flor-ejemplo-del-vector-44304295.jpg?ct=jpeg'); 
+    background-size: 200px ; 
+    background-repeat: repeat;
 }
