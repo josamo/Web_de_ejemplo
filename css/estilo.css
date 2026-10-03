@@ -78,3 +78,7 @@ body {
 main {
   flex: 1; /* Empuja el footer hacia abajo */
 }
+
+a{
+    text-decoration: none;
+}
