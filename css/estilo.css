@@ -78,11 +78,6 @@ main {
   flex: 1; /* Empuja el footer hacia abajo */
 }
 
-/*a{
-    text-decoration: none;
-}*/
-
-
 /* menu */
 
 .menu ul {
@@ -91,7 +86,6 @@ main {
  padding:0;
 }
 
-/* items del menu */
 
 /* enlaces del menu */
 
