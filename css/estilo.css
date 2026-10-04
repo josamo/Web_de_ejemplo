@@ -2,8 +2,7 @@ nav, .botones{
 	color: #0c41be;
 	padding: 10px 16px;
   	background: rgba(255, 255, 255, 0.08);
-  	border-radius: 999px;
-  	transition: background 0.2s ease;
+  	border-radius: 9px;
 }
 header {
     border-radius: 5px;
@@ -79,6 +78,62 @@ main {
   flex: 1; /* Empuja el footer hacia abajo */
 }
 
-a{
+/*a{
     text-decoration: none;
+}*/
+
+
+/* menu */
+
+.menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+
+/* items del menu */
+
+/* enlaces del menu */
+
+.menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ 
+}
+/* items del menu */
+.menu ul li {
+ position:relative;
+ float:left;
+}
+/* efecto al pasar el ratón por los items del menu */
+.menu ul li:hover {
+ background:rgb(10, 81, 64);
+ border-radius: 9px;
+}
+/* menu desplegable */
+.menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:rgb(91, 160, 151);
+ padding:0;
+ border-radius: 9px;
+}
+/* items del menu desplegable */
+.menu ul ul li {
+ float:none;
+ width:150px
+}
+/* enlaces de los items del menu desplegable */
+.menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+/* items del menu desplegable al pasar el ratón */
+.menu ul li:hover > ul {
+ display:block;
 }

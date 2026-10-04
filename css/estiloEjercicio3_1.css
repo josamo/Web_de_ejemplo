@@ -1,6 +1,7 @@
 .titulo1, .bloque1, .bloque2, .bloque3{
     text-align: center;
     margin: auto;
+    opacity: 90%;
 }
 
 .bloque1, .bloque2, .bloque3{
@@ -49,4 +50,8 @@
     color: rgb(255, 255, 255);
     background-color: rgb(240, 19, 19);
     font-style: italic;
+}
+body { 
+    background-image: url('../imagenes/fondoStarWars.jpg'); 
+    background-size:cover;
 }
