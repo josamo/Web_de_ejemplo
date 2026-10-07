@@ -53,5 +53,6 @@
 }
 body { 
     background-image: url('../imagenes/fondoStarWars.jpg'); 
-    background-size:cover;
+    background-size:auto;
+    background-repeat: no-repeat;
 }
