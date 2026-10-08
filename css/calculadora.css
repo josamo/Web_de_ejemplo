@@ -1,3 +1,20 @@
 button{
     width: 100%;
 }
+.calculadora{
+
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: antiquewhite;
+    width:250px;
+    margin: auto;
+    place-items: center;
+    padding:5px;
+    
+}
+#result{
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: right;      
+}
