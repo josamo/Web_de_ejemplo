@@ -15,3 +15,5 @@ alert(meses[5])
 alert(meses[6])
 alert(meses[7])
 alert(meses[8])
+
+var valores =[true, 5, false, "hola", "adios", 2 ];
