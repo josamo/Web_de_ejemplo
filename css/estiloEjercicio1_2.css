@@ -20,7 +20,7 @@ body {
 .formateado{
     text-align: center;
 }
-footer {
+.tablaInferior {
     border: 1px solid black;
 	background: rgb(50, 173, 235);
 	color: white;

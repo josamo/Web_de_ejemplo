@@ -1,4 +1,3 @@
-
 function EleccionAleatoria(){
     const opciones = ['piedra', 'papel', 'tijera'];
     return opciones[Math.floor(Math.random() * opciones.length)];
@@ -14,7 +13,7 @@ function PiedraPapelTijera(jugador){
     const maquina = EleccionAleatoria();
     partidas++;
  
-if (seleccion == maquina) {
+if (selección == maquina) {
   document.getElementById("pantalla").value = "Empate";
   empatadas++;
 }
