@@ -132,3 +132,14 @@ main {
 .menu ul li:hover > ul {
  display:block;
 }
+
+
+.juego{
+	 border: 2px solid black;
+    border-radius: 5%;
+    background-color: rgb(16, 122, 99);
+    width:20%;
+    margin: auto;
+    place-items: center;
+    padding:5px;
+}

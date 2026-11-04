@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Calculadora</title>
     <script src="../js/calculadora.js"></script>
     <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="stylesheet" href="../css/estilo.css" />
 </head>
+
 <body>
+    <header>
+        <h1>Mi primera WEB de Lenguajes de marcas</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html" class="botones">Inicio</a></li>
+                <li><a href="../horario.html" class="botones">Horario</a></li>
+                <li><a href="../formulario.html" class="botones">Formulario</a></li>
+                <li><a href="#" class="botones">Ejercicios Tema 2</a>
+                    <ul>
+                        <li><a href="../ejercicio1_1.html" class="botones">Ejercicio1_1</a></li>
+                        <li><a href="../ejercicio1_2.html" class="botones">Ejercicio1_2</a></li>
+                        <li><a href="../ejercicio1_3.html" class="botones">Ejercicio1_3</a></li>
+                        <li><a href="../ejercicio2_1.html" class="botones">Ejercicio2_1</a></li>
+                        <li><a href="../ejercicio2_2.html" class="botones">Ejercicio2_2</a></li>
+                        <li><a href="../ejercicio2_3.html" class="botones">Ejercicio2_3</a></li>
+                        <li><a href="../ejercicio3_1.html" class="botones">Ejercicio3_1</a></li>
+                        <li><a href="../ejercicio3_2.html" class="botones">Ejercicio3_2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="botones">Ejercicios Tema 3</a>
+                    <ul>
+                        <li><a href="calculadora.html" class="botones">Calculadora</a></li>
+                        <li><a href="ejemplo.html" class="botones">Ejemplo</a></li>
+                        <li><a href="ejercicio1.html" class="botones">Ejercicio1</a></li>
+                        <li><a href="juego.html" class="botones">Juego</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="calculadora">
-    <div><h1>Calculadora</h1></div> 
-    <table>
-        <thead>
-            <tr>
-                <td colspan="4"><input type="text" id="result" readonly/></td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><button onclick="escribir(7)">7</button></td>
-                <td><button onclick="escribir(8)">8</button></td>
-                <td><button onclick="escribir(9)">9</button></td>
-                <td><button onclick="borrar()">C</button></td>
-            </tr>
-            <tr>
-                <td><button onclick="escribir(4)">4</button></td>
-                <td><button onclick="escribir(5)">5</button></td>
-                <td><button onclick="escribir(6)">6</button></td>
-                <td><button onclick="escribir('+')">+</button></td>
-                
-            </tr>
-            <tr>
-                <td><button onclick="escribir(1)">1</button></td>
-                <td><button onclick="escribir(2)">2</button></td>
-                <td><button onclick="escribir(3)">3</button></td>
-                <td><button onclick="escribir('-')">-</button></td>
-                
-            </tr>
-            <tr>
-                <td><button onclick="escribir(0)">0</button></td>
-                <td><button onclick="escribir('/')">/</button></td>
-                <td><button onclick="escribir('*')">*</button></td>
-                <td><button onclick="resolver('=')">=</button></td>
-                
-            </tr>
-        </tbody>
+        <div>
+            <h1>Calculadora</h1>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="4"><input type="text" id="result" readonly /></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button onclick="escribir(7)">7</button></td>
+                    <td><button onclick="escribir(8)">8</button></td>
+                    <td><button onclick="escribir(9)">9</button></td>
+                    <td><button onclick="borrar()">C</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="escribir(4)">4</button></td>
+                    <td><button onclick="escribir(5)">5</button></td>
+                    <td><button onclick="escribir(6)">6</button></td>
+                    <td><button onclick="escribir('+')">+</button></td>
 
-    </table></div>
+                </tr>
+                <tr>
+                    <td><button onclick="escribir(1)">1</button></td>
+                    <td><button onclick="escribir(2)">2</button></td>
+                    <td><button onclick="escribir(3)">3</button></td>
+                    <td><button onclick="escribir('-')">-</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="escribir(0)">0</button></td>
+                    <td><button onclick="escribir('/')">/</button></td>
+                    <td><button onclick="escribir('*')">*</button></td>
+                    <td><button onclick="resolver('=')">=</button></td>
+
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
 </body>
-
+<footer>
+    <p>© 2024 Mi pagina web</p>
+    <p>CIFP Virgen de Gracia</p>
+    <p>Contacto:<a href="mailto:josamo78@gmail.com">josamo78@gmail.com</a></p>
+</footer>
 
 
 

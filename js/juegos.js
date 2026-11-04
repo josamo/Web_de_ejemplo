@@ -9,16 +9,16 @@ let empatadas = 0;
 let perdidas = 0;
 
 function PiedraPapelTijera(jugador){
-    let selección = jugador;
+    let seleccion = jugador;
     const maquina = EleccionAleatoria();
     partidas++;
  
-if (selección == maquina) {
+if (seleccion == maquina) {
   document.getElementById("pantalla").value = "Empate";
   empatadas++;
 }
-else if (selección == "piedra" && maquina == "tijera" || selección == "papel" && maquina == "piedra"
-    || selección == "tijera" && maquina == "papel"){
+else if (seleccion == "piedra" && maquina == "tijera" || seleccion == "papel" && maquina == "piedra"
+    || seleccion == "tijera" && maquina == "papel"){
     document.getElementById("pantalla").value = "Gana el jugador";
     ganadas++;
 }

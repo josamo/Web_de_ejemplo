@@ -17,3 +17,9 @@ background-color: red;
 .btn_div{
     background-color: rgb(50, 35, 133);
 }
+
+.contenido{
+    width:80%;
+    margin: auto;
+    padding:5px;
+}
