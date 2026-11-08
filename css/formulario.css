@@ -1,0 +1,14 @@
+h3 {
+	background: rgb(91, 160, 151);
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	border-color: black;
+	padding: 3px;
+}
+
+fieldset {
+	border-color: black;
+	border-radius: 5px;
+	background-color:rgb(240, 243, 210) ;
+}

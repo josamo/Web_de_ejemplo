@@ -22,11 +22,11 @@ width: 100px;
     background-color: rgb(221, 7, 10);
 }
 
-li{
+#caja{
     padding:  20px;
 }
 
-a{
+#link{
     text-decoration: none;
     color: white;
 }

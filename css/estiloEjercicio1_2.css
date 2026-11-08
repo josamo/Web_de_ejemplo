@@ -25,8 +25,6 @@ body {
 	background: rgb(50, 173, 235);
 	color: white;
 	padding: 20px 30px;
-    position: fixed;
-    bottom: 0;
-    width: 95%;
     height: 40px; /* Altura fija */
+   
 }

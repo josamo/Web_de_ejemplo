@@ -29,46 +29,11 @@ footer {
 	text-align: center;
 	align-items: center;
 	border: 1px solid black;
+	height: 50px; /* Altura definida del footer */
+	flex: 0;
+
 }
 
-
-table,  td {
-	margin: auto;
-    border: 1px solid black;
-	/* añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black*/
-	}
-
-td {
-	text-align: center;
-	/* alineamos el texto al cento -->*/
-	padding: 17px;
-    /*separa el texto de los bordes de la tabla*/
-	}
-
-.ENT {background-color: rgb(246, 70, 70);}
-.SIS {background-color: rgb(87, 87, 203);}
-.ING {background-color: rgb(231, 231, 4);}
-.BDD {background-color: #d1ecf1;}
-.DIG {background-color: rgb(177, 70, 177);}
-.REC {background-color: pink;}
-.SOS {background-color: rgb(137, 96, 30);}
-.PRO {background-color: rgb(204, 202, 202);}
-.LEN {background-color: rgb(42, 223, 42);}
-.ITI {background-color: rgb(238, 179, 71);}
-.DIAS {background-color: rgb(92, 224, 218);}
-h3 {
-	background: rgb(91, 160, 151);
-	color: white;
-	border-radius: 5px;
-	text-align: center;
-	border-color: black;
-	padding: 3px;
-}
-fieldset {
-	border-color: black;
-	border-radius: 5px;
-	background-color:rgb(240, 243, 210) ;
-}
 body {
   display: flex;
   flex-direction: column;
@@ -85,6 +50,8 @@ main {
  list-style:none;
  margin:0;
  padding:0;
+ position: relative; /* O absolute/fixed */
+    z-index: 999; 
 }
 
 
@@ -131,15 +98,19 @@ main {
 /* items del menu desplegable al pasar el ratón */
 .menu ul li:hover > ul {
  display:block;
+ 
 }
 
 
 .juego{
-	 border: 2px solid black;
+	border: 2px solid black;
     border-radius: 5%;
-    background-color: rgb(16, 122, 99);
+    background-color:rgb(91, 160, 151);
     width:20%;
     margin: auto;
     place-items: center;
     padding:5px;
+}
+#pantalla{
+	align-content: center;
 }

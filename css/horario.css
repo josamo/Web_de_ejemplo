@@ -1,0 +1,33 @@
+table,  td {
+	margin: auto;
+    border: 1px solid black;
+	/* añadimos un borde a la tabla y a las celdas th y td, tipo solido, 1 px de grosor y de color black*/
+	}
+
+td {
+	text-align: center;
+	/* alineamos el texto al cento -->*/
+	padding: 17px;
+    /*separa el texto de los bordes de la tabla*/
+	}
+
+.ENT {background-color: rgb(246, 70, 70);}
+.SIS {background-color: rgb(87, 87, 203);}
+.ING {background-color: rgb(231, 231, 4);}
+.BDD {background-color: #d1ecf1;}
+.DIG {background-color: rgb(177, 70, 177);}
+.REC {background-color: pink;}
+.SOS {background-color: rgb(137, 96, 30);}
+.PRO {background-color: rgb(204, 202, 202);}
+.LEN {background-color: rgb(42, 223, 42);}
+.ITI {background-color: rgb(238, 179, 71);}
+.DIAS {background-color: rgb(92, 224, 218);}
+
+h3 {
+	background: rgb(91, 160, 151);
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	border-color: black;
+	padding: 3px;
+}

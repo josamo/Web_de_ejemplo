@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Ejercicio 1.2</title>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="css/estiloEjercicio1_2.css"/>
-        
-    </head>
-    <body>
-        <header>
-		<h1>Mi primera WEB de Lenguajes de marcas</h1>
-		
+
+<head>
+    <title>Ejercicio 1.2</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/estiloEjercicio1_2.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Mi primera WEB de Lenguajes de marcas</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" class="botones">Inicio</a></li>
+                <li><a href="horario.html" class="botones">Horario</a></li>
+                <li><a href="formulario.html" class="botones">Formulario</a></li>
+                <li><a href="#" class="botones">Ejercicios Tema 2</a>
+                    <ul>
+                        <li><a href="ejercicio1_1.html" class="botones">Ejercicio1_1</a></li>
+                        <li><a href="ejercicio1_2.html" class="botones">Ejercicio1_2</a></li>
+                        <li><a href="ejercicio1_3.html" class="botones">Ejercicio1_3</a></li>
+                        <li><a href="ejercicio2_1.html" class="botones">Ejercicio2_1</a></li>
+                        <li><a href="ejercicio2_2.html" class="botones">Ejercicio2_2</a></li>
+                        <li><a href="ejercicio2_3.html" class="botones">Ejercicio2_3</a></li>
+                        <li><a href="ejercicio3_1.html" class="botones">Ejercicio3_1</a></li>
+                        <li><a href="ejercicio3_2.html" class="botones">Ejercicio3_2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="botones">Ejercicios Tema 3</a>
+                    <ul>
+                        <li><a href="tema3/calculadora.html" class="botones">Calculadora</a></li>
+                        <li><a href="tema3/ejemplo.html" class="botones">Ejemplo</a></li>
+                        <li><a href="tema3/ejercicio1.html" class="botones">Ejercicio1</a></li>
+                        <li><a href="tema3/juego.html" class="botones">Juego</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
     </header>
-        <div class="encabezado"><h4>Esto es un encabezado <s>h4 </s><mark><sub>h2</sub></mark></h4></div>
+    <main>
+        <div class="encabezado">
+            <h4>Esto es un encabezado <s>h4 </s><mark><sub>h2</sub></mark></h4>
+        </div>
         <table>
             <tr>
-                <td class="etiqueta"><p><a href="#capitulo4">Ir a capitulo 4:</a></p></td>
-                <td></td>  
+                <td class="etiqueta">
+                    <p><a href="#capitulo4">Ir a capitulo 4:</a></p>
+                </td>
+                <td></td>
             </tr>
             <tr>
-                <td><p class="formateado"><pre>Esto es un texto preformateado</pre></p></td>
-                <td></td>  
-            </tr>  
-            
-           
-        <table>
-            <tr>
-                <td><p>Este hipervínculo va a <sup>google</sup></p></td> 
-                <td class="etiqueta"><p>Ir a Google:</p></td>
+                <td>
+                    <p class="formateado">
+                    <pre>Esto es un texto preformateado</pre>
+                    </p>
+                </td>
+                <td></td>
             </tr>
-        </table>
-        <table class="tablaInferior">
-        <tr>
-            <td><a href="https://google.es"><button>hipervínculo en la misma pagina</button></a></td>
-        </tr>
-        <tr>
-           <td id="capitulo4">Esto es Capitulo 4</td>  
-        </tr>
-    </table>
-  </body>
-  
+            <table>
+                <tr>
+                    <td>
+                        <p>Este hipervínculo va a <sup>google</sup></p>
+                    </td>
+                    <td class="etiqueta">
+                        <p>Ir a Google:</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="tablaInferior">
+                <a href="https://google.es"><button>hipervínculo en la misma pagina</button></a>
+                <p id="capitulo4">Esto es Capitulo 4</p>
+            </div>
+    </main>
+    <footer>
+        <p>CIFP Virgen de Gracia</p>
+        <p>Contacto:<a href="mailto:josamo78@gmail.com">josamo78@gmail.com</a></p>
+    </footer>
+</body>
+
 </html>
