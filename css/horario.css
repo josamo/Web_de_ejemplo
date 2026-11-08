@@ -1,3 +1,16 @@
+.horario{
+	border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: var(--color-card);
+    max-width: 1300px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+    text-align: center;
+}
+
+
 table,  td {
 	margin: auto;
     border: 1px solid black;
@@ -6,7 +19,7 @@ table,  td {
 
 td {
 	text-align: center;
-	/* alineamos el texto al cento -->*/
+	/* alineamos el texto al centro -->*/
 	padding: 17px;
     /*separa el texto de los bordes de la tabla*/
 	}

@@ -1,25 +1,33 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button{
-background-color: green;
-color: white;
-padding: 10px 20px;
-border: none;
-cursor: pointer;
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
-.btn_resta{
-background-color: red;
+.btn_resta {
+    background-color: red;
 
 }
-.btn_div{
+
+.btn_div {
     background-color: rgb(50, 35, 133);
 }
 
-.contenido{
-    width:80%;
-    margin: auto;
-    padding:5px;
+.contenido {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: var(--color-card);
+    max-width: 520px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+    text-align: center;
+
 }

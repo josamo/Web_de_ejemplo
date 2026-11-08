@@ -6,7 +6,7 @@ button{
     
     border: 2px solid black;
     border-radius: 5%;
-    background-color: antiquewhite;
+    background-color:#eaf2f1;
     width:250px;
     margin: auto;
     place-items: center;
@@ -19,4 +19,16 @@ button{
     border: 1px solid black;
     border-radius: 5px;
     text-align: right;      
+}
+.contenedor{
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: var(--color-card);
+    max-width: 330px;
+    width: 100%;
+    margin:  auto;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+    text-align: center;
+    
 }

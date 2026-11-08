@@ -1,0 +1,12 @@
+.parrafo{
+    
+ border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: var(--color-card);
+    max-width: 520px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+    text-align: center;
+}

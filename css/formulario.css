@@ -1,14 +1,207 @@
-h3 {
-	background: rgb(91, 160, 151);
-	color: white;
+/*h3 {
+	
+	color: black;
 	border-radius: 5px;
 	text-align: center;
 	border-color: black;
-	padding: 3px;
+	
 }
 
 fieldset {
 	border-color: black;
 	border-radius: 5px;
 	background-color:rgb(240, 243, 210) ;
+}
+form{
+	border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: var(--color-card);
+    max-width: 800px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+}*/
+
+/* ==========================================
+   ESTILOS MODERNOS PARA EL FORMULARIO COMPLETO
+   ========================================== */
+
+form {
+  max-width: 750px;
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Secciones del formulario */
+form fieldset {
+  background-color:#eaf2f1;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--sombra, 0 4px 12px rgba(0, 0, 0, 0.05));
+  transition: box-shadow 0.3s ease;
+}
+
+form fieldset:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Títulos de cada sección */
+form legend {
+  padding: 0 0.5rem;
+}
+
+form legend h3 {
+  color: var(--color-principal, #1f5f5b);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Estructura de los campos dentro de párrafos */
+form fieldset p {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+form fieldset p:last-child {
+  margin-bottom: 0;
+}
+
+/* Etiquetas (Labels) */
+form label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-texto, #2c3e50);
+}
+
+/* Campos de texto, email, contraseña, tel, números, fechas y selectores */
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="time"],
+form input[type="datetime-local"],
+form input[type="month"],
+form input[type="week"],
+form input[type="number"],
+form input[type="color"],
+form input[type="file"],
+form input[list],
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #ccd1d1;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--color-texto, #2c3e50);
+  background-color: #fafbfc;
+  transition: all 0.3s ease;
+}
+
+/* Efecto focus al hacer clic en los inputs */
+form input:focus,
+form select:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--color-secundario, #48a999);
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(72, 169, 153, 0.15);
+}
+
+/* Ajuste específico para el input de color */
+form input[type="color"] {
+  height: 40px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+/* Ajuste para el input de tipo range */
+form input[type="range"] {
+  accent-color: var(--color-principal, #1f5f5b);
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+/* Radios y Checkboxes alineados correctamente */
+form input[type="radio"],
+form input[type="checkbox"] {
+  accent-color: var(--color-principal, #1f5f5b);
+  
+  cursor: pointer;
+}
+
+/* Contenedores de opciones (Radios/Checkboxes) */
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+  display: inline;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+
+
+/* Select múltiple */
+form select[multiple] {
+  padding: 0.5rem;
+  height: auto;
+}
+
+/* Textarea */
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Botones de Envío y Reset dentro del último fieldset */
+form fieldset:last-of-type {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Botón de Enviar principal */
+form input[type="submit"] {
+  background-color: var(--color-principal, #1f5f5b);
+  color: white;
+}
+
+form input[type="submit"]:hover {
+  background-color: var(--color-secundario, #48a999);
+  transform: translateY(-2px);
+}
+
+/* Botón de Limpiar secundario */
+form input[type="reset"] {
+  background-color: #e2e8f0;
+  color: var(--color-texto, #2c3e50);
+}
+
+form input[type="reset"]:hover {
+  background-color: #cbd5e1;
 }

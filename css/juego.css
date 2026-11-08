@@ -1,0 +1,14 @@
+/* ==========================================
+   5. SECCIONES ESPECIALES (JUEGO / CALCULADORA)
+   ========================================== */
+.juego {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: var(--color-card);
+  max-width: 320px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  box-shadow: var(--sombra);
+  text-align: center;
+}
