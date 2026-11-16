@@ -10,11 +10,9 @@ form {
 
 /* Secciones del formulario */
 form fieldset {
-  background-color:#eaf2f1;
-  border: 1px solid #dcdcdc;
+  
   border-radius: 10px;
   padding: 1.5rem 2rem;
-  box-shadow: var(--sombra, 0 4px 12px rgba(0, 0, 0, 0.05));
   transition: box-shadow 0.3s ease;
 }
 
