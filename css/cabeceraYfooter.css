@@ -1,6 +1,8 @@
 /* ==========================================
    1. VARIABLES Y RESET BASICO
    ========================================== */
+
+
 :root {
   --color-principal: #1f5f5b;
   --color-secundario: #48a999;
@@ -11,6 +13,18 @@
   --sombra: 0 4px 12px rgba(0, 0, 0, 0.08);
   --transicion: all 0.3s ease;
 }
+
+[data-theme="dark"] {
+  --color-principal: #2d8a84;
+  --color-secundario: #64c7b7;
+  --color-fondo: #121716;
+  --color-card: #1b2221;
+  --color-texto: #e6eceb;
+  --color-texto-suave: #9ba8a6;
+  --color-borde: rgba(255, 255, 255, 0.08)
+}
+
+
 
  * {
   box-sizing: border-box;
@@ -26,11 +40,27 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Mantener footer al final */
+
+
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+
+.card {
+  background-color: var(--color-card);
+  color: var(--color-texto);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
 
 /* ==========================================
    2. CABECERA Y NAVEGACIÓN
    ========================================== */
+
 header {
   background-color: var(--color-principal);
   color: white;
@@ -80,19 +110,46 @@ header h1 {
   transform: translateY(-2px);
 }
 
+.theme-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-principal);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transicion, all 0.3s ease);
+  box-shadow: var(--sombra, none);
+}
+
+.theme-btn:hover {
+  background-color: var(--color-secundario);
+  transform: translateY(-2px);
+}
+
+.theme-btn:active {
+  transform: translateY(0);
+}
+
 /* Menú desplegable (Submenú) */
 .menu ul ul {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: white;
+  background-color: var(--color-card); /* Usa la variable de tarjeta/fondo oscuro */
   min-width: 180px;
   box-shadow: var(--sombra);
   border-radius: 6px;
   overflow: hidden;
   padding: 5px 0;
   list-style: none;
+  border: 1px solid var(--color-borde, transparent); /* Opcional: le añade borde en modo oscuro */
 }
 
 .menu ul ul li {
@@ -100,7 +157,7 @@ header h1 {
 }
 
 .menu ul ul a.botones {
-  color: var(--color-texto);
+  color: var(--color-texto); /* Hereda el texto correcto según el modo */
   background: transparent;
   padding: 10px 16px;
   border-radius: 0;
@@ -109,7 +166,7 @@ header h1 {
 }
 
 .menu ul ul li:hover > a.botones {
-  background-color: var(--color-fondo);
+  background-color: var(--color-fondo); /* Se adapta al fondo oscuro al pasar el ratón */
   color: var(--color-principal);
   transform: none;
 }
